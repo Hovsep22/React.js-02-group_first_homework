@@ -16,6 +16,7 @@ const App = () => {
       dispatch(setChangeTheme(e.matches));
     };
 
+    
     darkModeMediaQuery.addEventListener('change', handleChange);
     dispatch(setChangeTheme(darkModeMediaQuery.matches));
 
