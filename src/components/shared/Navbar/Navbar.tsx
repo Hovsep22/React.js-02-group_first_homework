@@ -150,7 +150,7 @@ const Navbar = () => {
                     <Button className="body-semibold btn-secondary min-h-[41px] w-full rounded-lg px-4 py-3 text-zinc-50">
                       {/* <LucideUserCircle className="h-5 w-5 lg:hidden" /> */}
                       <SheetTrigger >
-                        <span>Sign In</span>
+                        <span>Sign In </span>
                       </SheetTrigger>
                     </Button>
                   </Link>
